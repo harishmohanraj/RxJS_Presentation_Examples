@@ -8,18 +8,42 @@
   <meta name="author" content="">
   <title>Autocomplete search box</title>
 </head>
-<body>
-<div class="container">
-  <div class="row-fluid">
-    <form role="form">
-      <div class="form-group">
-        <label for="textInput">Enter Query for Wikipedia</label>
-        <input type="text" id="textInput" class="form-control">
+<style>
+  html, body, .container-table {
+    height: 100%;
+  }
+  .container-table {
+    display: table;
+    margin-top:100px;
+  }
+  .vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .result-wrapper {
+    text-align: left;
+    width: 200px;
+    margin: 0 auto;
+  }
+</style>
+<body style="background: #eceeef;">
+
+<div class="site-wrapper">
+  <div class="container container-table">
+    <div class="row vertical-center-row">
+      <div class="text-center col-md-4 col-md-offset-4" >
+        <h1>Autocomplete search box</h1>
+        <form role="form">
+          <div class="form-group">
+            <label for="textInput">Enter Query for Wikipedia</label>
+            <input type="text" id="textInput" class="form-control">
+          </div>
+          <div class="result-wrapper">
+            <ul id="results"></ul>
+          </div>
+        </form>
       </div>
-    </form>
-  </div>
-  <div class="row-fluid">
-    <ul id="results"></ul>
+    </div>
   </div>
   <script src="https://unpkg.com/@reactivex/rxjs@5.0.3/dist/global/Rx.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
