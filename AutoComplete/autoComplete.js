@@ -25,7 +25,7 @@ var searchTermStream$ = keyUps$
 
 var responseStream$ = searchTermStream$
     .do(term => console.log("requesting for: " + term))
-    .switchMap(requestUrl => Rx.Observable.fromPromise(searchWikipedia(requestUrl)))
+    .flatMap(requestUrl => Rx.Observable.fromPromise(searchWikipedia(requestUrl)))
     .retry(3);
 
 responseStream$.subscribe(
@@ -35,3 +35,14 @@ responseStream$.subscribe(
             .append ($.map(data[1], function (v) { return $('<li>').text(v); }));
     },
 )
+
+// var responseStream = Rx.Observable.of('posts')
+//         .flatMap(requestUrl => fetch('https://jsonplaceholder.typicoddsde.com/posts'))
+//         .retry(3);
+//
+// responseStream
+//     .subscribe(
+//         (x) => console.log('Next: ' + x),
+//     (err) => console.log('Error: ' + err),
+//     () => console.log('Completed'));
+
