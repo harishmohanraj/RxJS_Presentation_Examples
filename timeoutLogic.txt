@@ -1,0 +1,14 @@
+Finding inactivetivy time:
+  We can use the merge operator for all the clicks and mouse move happening in document and listen to it
+
+
+
+
+  var clickStream$ = Rx.Observable.fromEvent(document, 'click');
+var mouseMoveStream$ = Rx.Observable.fromEvent(document, 'mousemove');
+
+var mergedStream$ = clickStream$
+                      .merge(mouseMoveStream$)
+                      .debounceTime(2 * 1000)
+
+mergedStream$.subscribe((x) => console.log('timedOut at'+ x.clientX))
