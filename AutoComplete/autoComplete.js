@@ -37,7 +37,7 @@ responseStream$.subscribe(
 )
 
 // var responseStream = Rx.Observable.of('posts')
-//         .flatMap(requestUrl => fetch('https://jsonplaceholder.typicoddsde.com/posts'))
+//         .flatMap(requestUrl => fetch('https://jsonplaceholder.typicode.com/posts'))
 //         .retry(3);
 //
 // responseStream

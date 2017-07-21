@@ -12,8 +12,6 @@ var dragStream$ = mouseDowns
                     .map(() => mouseMoves.takeUntil(mouseUps)) //[[mouseMove],[mouseMove],[mouseMove]]
                     .concatAll(); //[mouseMove,mouseMove,mouseMove]
 
-
-
 dragStream$.subscribe({
   next: (pos)=> {
     container.style.left = pos.x - offsetX + "px";
