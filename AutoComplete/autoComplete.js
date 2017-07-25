@@ -15,7 +15,7 @@ function getWikipediaSearchResults(term) {
 var keyUp$ = Rx.Observable.fromEvent($input, "keyup");
 
 var searchTermStream$ = keyUp$
-                        .debounceTime(250)
+                        .debounceTime(450)
                         .map(e => e.target.value)
                         .filter(val => val.length > 2)
                         .distinctUntilChanged()
