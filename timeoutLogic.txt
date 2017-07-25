@@ -20,6 +20,6 @@ var mouseMoveStream$ = Rx.Observable.fromEvent(document, 'mousemove');
 var keyPressStream$ = Rx.Observable.fromEvent(document, 'keypress');
 
 var mergedStream$ = Rx.Observable.merge(clickStream$, mouseMoveStream$, keyPressStream$)
-                    .debounceTime(2 * 1000)
+                    .debounceTime(3 * 1000)
 
 mergedStream$.subscribe((x) => console.log('Session timedOut!!!'))
