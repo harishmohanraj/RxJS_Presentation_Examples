@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="078548d8-e884-47c2-b15a-f4301714082b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoComplete/autoComplete_old.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AutoComplete/service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Iterator Pattern/simpleFunction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clickEvent/clickEvent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clickEvent/clickEvent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dragAndDrop/drag.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dragAndDrop/drag.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dragAndDrop/drag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generatorVsObservables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/objectNotation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stateVariable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timeoutLogic.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unsubscribe.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoComplete/autoComplete_jquery.js" afterPath="$PROJECT_DIR$/AutoComplete/autoComplete_jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,6 +72,7 @@
         <option value="$PROJECT_DIR$/AutoComplete/autoComplete.js" />
         <option value="$PROJECT_DIR$/timeoutLogic.txt" />
         <option value="$PROJECT_DIR$/AutoComplete/autoComplete_jquery.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -269,14 +256,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AutoComplete/autocomplete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stateVariable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -664,6 +643,17 @@
         <state relative-caret-position="782">
           <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="23">
+            <caret line="1" column="78" lean-forward="false" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
